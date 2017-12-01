@@ -123,6 +123,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="withADF.csproj">
+      <Project>{89581C8E-88CB-C430-AEAA-A24503D4C5CD}</Project>
+      <Name>withADF</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\TangoPrefabs\Editor\TangoArPoseControllerInspector.cs" />
     <Compile Include="Assets\TangoPrefabs\Editor\TangoArScreenInspector.cs" />
     <Compile Include="Assets\TangoPrefabs\Editor\TangoDeltaPoseControllerInspector.cs" />
